@@ -10,6 +10,7 @@ object MethodScala {
     println("b="+b);
 
     var c=f3  _ //在函数后面加下划线表示将函数当成类型赋值，而不会执行；
+                //也相当于把变量c当成了一个f3的函数名，可以直接用c代替f3
     println("cwww="+c);
     c()
 
