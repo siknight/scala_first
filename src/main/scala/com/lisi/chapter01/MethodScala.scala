@@ -20,6 +20,9 @@ object MethodScala {
     println("-----------")
     d()()
 
+    println("222222222222-----------")
+    f5();
+
   }
 
   def  f1(): Unit ={
@@ -37,5 +40,11 @@ object MethodScala {
   def f4() ={
     f1 _  //这种写法相当于把函数当返回值了
   }
+
+  def f5(a:String="bb") ={
+    print("a="+a);
+  }
+
+
 
 }
